@@ -119,6 +119,7 @@ public class MainListActivity extends ListActivity {
                         HashMap<String, String> blogPost = new HashMap<String, String>();
                         blogPost.put(KEY_TITLE, title);
                         blogPost.put(KEY_AUTHOR, author);
+                        blogPost.put(KEY_TITLE, title);
 
                         blogPosts.add(blogPost);
 
